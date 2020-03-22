@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+
+    tools:context=".Discount"
+   >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:fontFamily="@font/simplifica"
+        android:text="Discount"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Original Price"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:fontFamily="@font/simplifica"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        />
+
+    <EditText
+        android:id="@+id/original"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:textCursorDrawable="@color/gray"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/simplifica"
+        android:textSize="30sp"
+        android:layout_margin="10dp"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Discount (% off)"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:fontFamily="@font/simplifica"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        />
+    <EditText
+        android:id="@+id/dscnt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:textCursorDrawable="@color/gray"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/simplifica"
+        android:textSize="30sp"
+        android:layout_margin="10dp"
+        android:textAlignment="center"
+
+        />
+    <Button
+        android:id="@+id/dscBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Calculate"
+        android:fontFamily="@font/simplifica"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+
+        />
+    <TextView
+        android:id="@+id/finalPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Final Price :"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:fontFamily="@font/simplifica"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:id="@+id/msgDsc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/discMsg"
+        android:textColor="@color/gray"
+        android:textAlignment="center"
+        android:fontFamily="@font/simplifica"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        />
+</LinearLayout>

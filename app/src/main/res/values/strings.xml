@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Mini Project</string>
+    <string name="openButton">Start</string>
+    <string name="counting">0</string>
+    <string name="discInp1">Enter your original product price</string>
+    <string name="discPercent">Discount (% off)</string>
+    <string name="finalPrice">Final Price</string>
+    <string name="discMsg">You save </string>
+    <string name="bmiText">\nUnderweight = BMI of 18.5 or lesser\nNormal weight = 18.5 to 24.9\nOverweight = 25 to 29.9\nObesity = BMI of 30 or greater</string>
+    <string name="yearsss"></string>
+    <string name="monthsss"></string>
+    <string name="daysss"></string>
+</resources>

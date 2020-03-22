@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Age"
+    android:background="@color/black"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:fontFamily="@font/simplifica"
+        android:text="Age"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/dobText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date of Birth: "
+            android:textColor="@color/white"
+            android:fontFamily="@font/simplifica"
+            android:textSize="30sp"
+
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:textColor="@color/black"
+            android:fontFamily="@font/simplifica"
+            android:textSize="30sp"
+            android:gravity="right"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:textAlignment="center"
+            android:id="@+id/dob"
+
+
+            />
+
+
+
+        <TextView
+            android:id="@+id/cdobText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Current Date: "
+            android:textColor="@color/white"
+            android:fontFamily="@font/simplifica"
+            android:textSize="30sp"
+
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:textColor="@color/black"
+            android:fontFamily="@font/simplifica"
+            android:textSize="30sp"
+            android:gravity="right"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:textAlignment="center"
+            android:id="@+id/cdob"
+
+            />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:textColor="@color/black"
+        android:fontFamily="@font/simplifica"
+        android:textSize="30sp"
+        android:gravity="right"
+        android:textAlignment="center"
+        android:id="@+id/calculate"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Age: "
+        android:textColor="@color/white"
+        android:fontFamily="@font/simplifica"
+        android:textSize="30sp"
+
+        />
+
+    <TableRow
+        android:id="@+id/titleRowid"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:layout_marginBottom="3dp"
+        >
+
+        <TextView
+            android:layout_width="223dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/simplifica"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Topic "
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/simplifica"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Value "
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_marginLeft="2dp"
+            />
+
+
+
+
+
+    </TableRow>
+
+    <TableRow
+    android:id="@+id/Age"
+    android:background="@color/white"
+        android:layout_marginBottom="2dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:fontFamily="@font/simplifica"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Age "
+            android:textColor="@color/black"
+            android:textColorHint="#009B3232"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:id="@+id/yearsss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/simplifica"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/yearsss"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+    </TableRow>
+    <TableRow
+        android:id="@+id/Month"
+        android:background="@color/white"
+        android:layout_marginBottom="2dp"
+        >
+        <TextView
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Month "
+            android:textColor="@color/black"
+            android:fontFamily="@font/simplifica"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:id="@+id/monthsss"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/yearsss"
+            android:textColor="@color/black"
+            android:fontFamily="@font/simplifica"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            />
+    </TableRow>
+    <TableRow
+        android:id="@+id/Day"
+        android:layout_marginBottom="2dp"
+        android:background="@color/white"
+
+        >
+        <TextView
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Day "
+            android:textColor="@color/black"
+            android:fontFamily="@font/simplifica"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:id="@+id/daysss"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/daysss"
+            android:textColor="@color/black"
+            android:fontFamily="@font/simplifica"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            />
+    </TableRow>
+
+</TableLayout>
